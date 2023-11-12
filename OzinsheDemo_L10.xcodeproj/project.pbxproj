@@ -16,6 +16,12 @@
 		5968EAEF2AEE176E00E1AA1F /* OzinsheDemo_L10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968EAEE2AEE176E00E1AA1F /* OzinsheDemo_L10Tests.swift */; };
 		5968EAF92AEE176E00E1AA1F /* OzinsheDemo_L10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968EAF82AEE176E00E1AA1F /* OzinsheDemo_L10UITests.swift */; };
 		5968EAFB2AEE176E00E1AA1F /* OzinsheDemo_L10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5968EAFA2AEE176E00E1AA1F /* OzinsheDemo_L10UITestsLaunchTests.swift */; };
+		59D1373F2AFF574C00583515 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D1373E2AFF574C00583515 /* TabBarController.swift */; };
+		59D137452AFFA0A800583515 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D137422AFFA0A800583515 /* SFProDisplay-Bold.ttf */; };
+		59D137462AFFA0A800583515 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59D137432AFFA0A800583515 /* SF-Pro-Display-Semibold.otf */; };
+		59D137472AFFA0A800583515 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D137442AFFA0A800583515 /* SFProDisplay-Regular.ttf */; };
+		59D1374A2AFFA83D00583515 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D137492AFFA83D00583515 /* FavoriteTableViewController.swift */; };
+		59D1374C2AFFAB6600583515 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D1374B2AFFAB6600583515 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		5968EAF42AEE176E00E1AA1F /* OzinsheDemo_L10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OzinsheDemo_L10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5968EAF82AEE176E00E1AA1F /* OzinsheDemo_L10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzinsheDemo_L10UITests.swift; sourceTree = "<group>"; };
 		5968EAFA2AEE176E00E1AA1F /* OzinsheDemo_L10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzinsheDemo_L10UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59D1373E2AFF574C00583515 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		59D137422AFFA0A800583515 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		59D137432AFFA0A800583515 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		59D137442AFFA0A800583515 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		59D137492AFFA83D00583515 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		59D1374B2AFFAB6600583515 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,10 @@
 		5968EAD62AEE176A00E1AA1F /* OzinsheDemo_L10 */ = {
 			isa = PBXGroup;
 			children = (
+				59D137412AFFA03600583515 /* Fonts */,
 				5968EAD72AEE176A00E1AA1F /* AppDelegate.swift */,
 				5968EAD92AEE176A00E1AA1F /* SceneDelegate.swift */,
-				5968EADB2AEE176A00E1AA1F /* ViewController.swift */,
+				59D137482AFFA7BF00583515 /* Controllers */,
 				5968EADD2AEE176A00E1AA1F /* Main.storyboard */,
 				5968EAE02AEE176D00E1AA1F /* Assets.xcassets */,
 				5968EAE22AEE176D00E1AA1F /* LaunchScreen.storyboard */,
@@ -125,6 +138,27 @@
 				5968EAFA2AEE176E00E1AA1F /* OzinsheDemo_L10UITestsLaunchTests.swift */,
 			);
 			path = OzinsheDemo_L10UITests;
+			sourceTree = "<group>";
+		};
+		59D137412AFFA03600583515 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				59D137422AFFA0A800583515 /* SFProDisplay-Bold.ttf */,
+				59D137442AFFA0A800583515 /* SFProDisplay-Regular.ttf */,
+				59D137432AFFA0A800583515 /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		59D137482AFFA7BF00583515 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59D1373E2AFF574C00583515 /* TabBarController.swift */,
+				5968EADB2AEE176A00E1AA1F /* ViewController.swift */,
+				59D137492AFFA83D00583515 /* FavoriteTableViewController.swift */,
+				59D1374B2AFFAB6600583515 /* MovieTableViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +267,10 @@
 			files = (
 				5968EAE42AEE176D00E1AA1F /* LaunchScreen.storyboard in Resources */,
 				5968EAE12AEE176D00E1AA1F /* Assets.xcassets in Resources */,
+				59D137462AFFA0A800583515 /* SF-Pro-Display-Semibold.otf in Resources */,
+				59D137472AFFA0A800583515 /* SFProDisplay-Regular.ttf in Resources */,
 				5968EADF2AEE176A00E1AA1F /* Main.storyboard in Resources */,
+				59D137452AFFA0A800583515 /* SFProDisplay-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D1374A2AFFA83D00583515 /* FavoriteTableViewController.swift in Sources */,
 				5968EADC2AEE176A00E1AA1F /* ViewController.swift in Sources */,
+				59D1374C2AFFAB6600583515 /* MovieTableViewCell.swift in Sources */,
+				59D1373F2AFF574C00583515 /* TabBarController.swift in Sources */,
 				5968EAD82AEE176A00E1AA1F /* AppDelegate.swift in Sources */,
 				5968EADA2AEE176A00E1AA1F /* SceneDelegate.swift in Sources */,
 			);
